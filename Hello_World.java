@@ -3,31 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fact;
+package hello_world;
 
 /**
  *
  * @author sjcet
  */
-import java.util.Scanner;
-public class Fact {
+public class Hello_World {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-          Scanner sObj = new Scanner(System.in);
-    System.out.println("Enter a Number:");
-
-    int n = sObj.nextInt();
-
-        int i,fact=1;    
-  for(i=1;i<=n;i++){    
-      fact=fact*i;    
-  }    
-  System.out.println("Factorial of "+n+" is: "+fact);    
-
+        System.out.println("Hello World!!!");
     }
     
 }
