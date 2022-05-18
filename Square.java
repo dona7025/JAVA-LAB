@@ -4,16 +4,16 @@
  * and open the template in the editor.
  */
 package graphics.Figures;
-public class Rectangle
+
+public class Square
 {
-    private int le,be;
-    public Rectangle(int l,int b)
+    private int side;
+    public Square(int s)
     {
-        le=l;
-        be=b;
+        side=s;
     }
     public int area()
     {
-        return(le*be);
+        return(side*side);
     }
 }
